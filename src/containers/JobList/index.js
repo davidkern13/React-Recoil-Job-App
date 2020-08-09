@@ -7,7 +7,7 @@ import {
     useRecoilValueLoadable
 } from "recoil";
 
-const Jobs = () => {
+const JobList = () => {
 
     // const stateWithAsyncDefaultLoadable = renderArticles(useRecoilValueLoadable(stateWithAsyncDefault));
 
@@ -20,4 +20,4 @@ const Jobs = () => {
     )
 }
 
-export default  React.memo(Jobs);
+export default  React.memo(JobList);

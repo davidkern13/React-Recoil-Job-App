@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Jobs from '../Jobs';
+import JobList from '../JobList';
 import Search from '../Search';
 import Test from '../Test';
 
@@ -12,7 +12,7 @@ const Main = () => {
         <div>
           <div>
             <Search />
-            <Jobs />
+            <JobList />
             <Test />
           </div>
           <div>
