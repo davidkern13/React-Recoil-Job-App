@@ -1,0 +1,7 @@
+export const JOBS_CATEGORY = 'JOBS_CATEGORY';
+export const JOBS_LEVEL = 'JOBS_LEVEL';
+
+export const JOBS_CATEGORY_RESULT = 'JOBS_CATEGORY_RESULT';
+export const JOBS_LEVEL_RESULT = 'JOBS_LEVEL_RESULT';
+
+export const CHECK_BOX_LIST = 'CHECK_BOX_LIST';
