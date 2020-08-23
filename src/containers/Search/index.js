@@ -6,6 +6,7 @@ import {
     selector
 } from "recoil";
 
+import './style.scss';
 
 import { inputSearch } from '../../store/search/atom'
 
@@ -19,8 +20,8 @@ const Search = () => {
     }
 
     return (
-        <div>
-            <input type="text" value={item.text} onChange={handleChange} />
+        <div className={'Search'}>
+            <input type="text" value={item.text} onChange={handleChange} placeholder="Search jobs…"/>
         </div>
     )
 }

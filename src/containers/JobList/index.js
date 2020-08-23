@@ -9,9 +9,9 @@ import {
 
 const JobList = () => {
 
-    // const stateWithAsyncDefaultLoadable = renderArticles(useRecoilValueLoadable(stateWithAsyncDefault));
+    const stateWithAsyncDefaultLoadable = renderArticles(useRecoilValueLoadable(stateWithAsyncDefault));
 
-    // console.log('stateWithAsyncDefaultLoadable', stateWithAsyncDefaultLoadable);
+    console.log('stateWithAsyncDefaultLoadable', stateWithAsyncDefaultLoadable);
 
     return (
         <div>

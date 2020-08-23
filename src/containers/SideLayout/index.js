@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './style.scss';
 import Checkbox from '../Checkbox';
 
 import { jobCategory, jobLevel, jobCategoryResult, jobLevelResult} from '../../store/checkbox/atom';
@@ -7,13 +7,13 @@ import { jobCategory, jobLevel, jobCategoryResult, jobLevelResult} from '../../s
 const SideLayout = () => {
 
     return (
-        <div>
-            <p>Category</p>
+        <div className={'Listwrap'}>
+            <h3>Category</h3>
             <Checkbox 
               atom={jobCategory}
               atomResult={jobCategoryResult}
             />
-            <p>Experience level</p>
+            <h3>Experience level</h3>
              <Checkbox 
               atom={jobLevel}
               atomResult={jobLevelResult}
