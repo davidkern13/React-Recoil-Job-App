@@ -6,6 +6,8 @@ import {
   useSetRecoilState
 } from "recoil";
 
+import './style.scss';
+
 import { listJobType } from '../../store/checkbox/atom';
 
 const ListItem = ({ index, atom, atomResult }) => {
@@ -32,8 +34,8 @@ const Checkbox = ({atom, atomResult}) => {
   let listJobTypesValue = useRecoilValue(atom);
 
   return (
-    <div>
-       <ul>
+    <div className={'Sidelist'}>
+       <ul className={'Sidelist__ul'}>
         {_.times(listJobTypesValue.length, (i) => (   
             <ListItem 
               key={i}
